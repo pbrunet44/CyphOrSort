@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:layout_marginTop="10dp"
         android:id="@+id/imgPreview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,6 +48,17 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/btnStartDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Start Demo"
+        android:layout_marginBottom="10dp"
         />
 
 </LinearLayout>
