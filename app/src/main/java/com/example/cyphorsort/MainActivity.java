@@ -18,20 +18,20 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class MainActivity extends AppCompatActivity /*implements AdapterView.OnItemSelectedListener*/ {
     private final static int RESULT_LOAD_IMAGE = 1;
     private Uri imageUri = null;
-    ImageView imgPreview;
-    Button btnUploadImage;
-    Button btnStartDemo;
+    //ImageView imgPreview;
+    //Button btnUploadImage;
+    //Button btnStartDemo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imgPreview = findViewById(R.id.imgPreview);
-        btnUploadImage = findViewById(R.id.btnUploadImage);
-        btnStartDemo = findViewById(R.id.btnStartDemo);
-        Spinner spnAlgorithm = findViewById(R.id.spnAlgorithm);
+        //imgPreview = findViewById(R.id.imgPreview);
+        //btnUploadImage = findViewById(R.id.btnUploadImage);
+        //btnStartDemo = findViewById(R.id.btnStartDemo);
+        /*Spinner spnAlgorithm = findViewById(R.id.spnAlgorithm);
         spnAlgorithm.setOnItemSelectedListener(this);
 
         List<String> algorithms = new ArrayList<>();
@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     
                 }
             }
-        });
+        });*/
 
-    }
+    }/*
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -86,5 +86,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
     public void onNothingSelected(AdapterView<?> arg0) {
         // TODO Auto-generated method stub
-    }
+    }*/
 }
