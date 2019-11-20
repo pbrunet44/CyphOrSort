@@ -15,6 +15,16 @@
         android:scaleType="centerCrop"
         android:src="@drawable/add_image_icon" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Key (for encryption algorithms)"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
